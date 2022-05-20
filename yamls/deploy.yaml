@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-apps
-        image: httpd
+        image: rehaninamdar/hello-kaniko:tagname
         ports:
         - containerPort: 80
 
