@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-apps
-        image: rehaninamdar/hello-kaniko:tagname
+        image: rehaninamdar/hello-kaniko:latest
         ports:
         - containerPort: 80
 
