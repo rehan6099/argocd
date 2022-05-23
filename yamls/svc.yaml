@@ -9,7 +9,7 @@ spec:
   ports:
   - port: 80
     protocol: TCP
-    nodePort: 32285
+    nodePort: 
   selector:
     run: my-nginx
 
